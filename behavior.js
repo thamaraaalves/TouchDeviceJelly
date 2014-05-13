@@ -3,11 +3,11 @@ paper.install(window);
 
 paper.setup('myCanvas1'); 
 
-​
+
 
 var SSection, Sections, gui, h, mwheel, onFrame, windowHeight, _base, _ref;
 
-​
+
 
 Path.prototype.setWidth = function(width) {
 
@@ -17,7 +17,7 @@ Path.prototype.setWidth = function(width) {
 
 };
 
-​
+
 
 Path.prototype.setHeight = function(height) {
 
@@ -27,7 +27,7 @@ Path.prototype.setHeight = function(height) {
 
 };
 
-​
+
 
 Path.prototype.reset = function() {
 
@@ -39,7 +39,7 @@ Path.prototype.reset = function() {
 
 };
 
-​
+
 
 h = {
 
@@ -51,7 +51,7 @@ h = {
 
 };
 
-​
+
 
 window.PaperSections = {
 
@@ -73,30 +73,30 @@ window.PaperSections = {
 
 };
 
-​
+
 
 window.PaperSections.ff = typeof InstallTrigger !== 'undefined';
 
-​
+
 
 window.PaperSections.win = navigator.appVersion.indexOf("Win") !== -1;
 
 
 windowHeight = $(window).outerHeight();
 
-​
+
 
 window.PaperSections.$canvas = $(view.canvas);
 
-​
+
 
 window.PaperSections.data = window.PaperSections.$canvas.data();
 
-​
+
 
 window.PaperSections.data.colors = window.PaperSections.data.colors.split(':');
 
-​
+
 
 if ((_ref = (_base = window.PaperSections.data).sectionscount) == null) {
 
@@ -104,4 +104,4 @@ if ((_ref = (_base = window.PaperSections.data).sectionscount) == null) {
 
 }
 
-​
+
